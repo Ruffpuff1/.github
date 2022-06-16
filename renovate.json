@@ -1,0 +1,18 @@
+{
+	"extends": [
+		":dependencyDashboard",
+		":semanticCommits",
+		":ignoreModulesAndTests",
+		"group:recommended",
+		"workarounds:all"
+	],
+	"prConcurrentLimit": 5,
+	"timezone": "America/Los_Angeles",
+	"schedule": [
+    		"after 5am",
+    		"before 9am"
+  	],
+	"labels": [
+		"Meta: Dependencies"
+	]
+}
